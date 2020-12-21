@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "streamermode",
+  "name": "Streamer Mode",
+  "version": "$version",
+  "description": "Prevents the playback of sounds not licensed for streaming",
+  "environment": "client",
+  "depends": {
+    "fabricloader": ">=0.10.8"
+  },
+  "mixins": [
+    "mixins/streamermode/mixins.json"
+  ],
+  "authors": [
+    "Chloe Dawn"
+  ],
+  "custom": {
+    "modmenu:clientsideOnly": true
+  }
+}
